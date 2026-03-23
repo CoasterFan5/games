@@ -11,7 +11,7 @@ const {
 <div class="wrap">
 	<div class="navBar">
 	    <div class='navBarInner'>
-					<h2>Games!</h2>
+			<h2>Games!</h2>
 		</div>
 	</div>
 	<div class="content">
