@@ -1,13 +1,11 @@
 <script lang="ts">
-  import favicon from "$lib/assets/favicon.svg";
-  import "@fontsource-variable/geist/wght.css";
+import favicon from "$lib/assets/favicon.svg";
+import "@fontsource-variable/geist/wght.css";
 
-  let { children } = $props();
+let { children } = $props();
 </script>
 
-<svelte:head>
-	<link rel="icon" href={favicon} />
-</svelte:head>
+<svelte:head> <link rel="icon" href={favicon}> </svelte:head>
 
 {@render children()}
 
@@ -15,6 +13,9 @@
 	:global(body) {
 		--background: #1f1f1f;
 		--background-alt: #2c2c2c;
+		--accent: #F67216;
+		--border: #3b3b3c;
+		--border-alt: #626262;
 		--color: #fff;
 
 		background: var(--background);
